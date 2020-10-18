@@ -35,7 +35,6 @@ function generatePassword() {
       if (passParams[typeIndex] == "upper") {         // if upper then generate random alpha and call toUpperCase to convert to upper
           pAlpha = genAlpha();
           pChar = pAlpha.toUpperCase();
-          console.log("Upper case chosen - " + pChar);
       } else {
         if (passParams[typeIndex] == "lower") {
             pChar = genAlpha();
